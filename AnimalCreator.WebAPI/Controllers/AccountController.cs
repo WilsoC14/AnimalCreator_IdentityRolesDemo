@@ -16,6 +16,7 @@ using Microsoft.Owin.Security.OAuth;
 using AnimalCreator.WebAPI.Models;
 using AnimalCreator.WebAPI.Providers;
 using AnimalCreator.WebAPI.Results;
+using AnimalCreator.Data;
 
 namespace AnimalCreator.WebAPI.Controllers
 {

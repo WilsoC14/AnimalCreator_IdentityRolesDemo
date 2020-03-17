@@ -4,6 +4,7 @@ using Microsoft.AspNet.Identity.EntityFramework;
 using Microsoft.AspNet.Identity.Owin;
 using Microsoft.Owin;
 using AnimalCreator.WebAPI.Models;
+using AnimalCreator.Data;
 
 namespace AnimalCreator.WebAPI
 {
