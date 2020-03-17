@@ -57,11 +57,22 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AnimalService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\AnimalCreator.Data\AnimalCreator.Data.csproj">
+      <Project>{F5F57879-F955-47E9-A8B2-13107DFD2C3E}</Project>
+      <Name>AnimalCreator.Data</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\AnimalCreator.Models\AnimalCreator.Models.csproj">
+      <Project>{7619D11E-7953-4DA5-AD44-4B6D62E41854}</Project>
+      <Name>AnimalCreator.Models</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">

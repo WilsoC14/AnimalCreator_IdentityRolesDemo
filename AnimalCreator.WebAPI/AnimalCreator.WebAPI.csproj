@@ -207,6 +207,7 @@
     <Compile Include="Areas\HelpPage\SampleGeneration\TextSample.cs" />
     <Compile Include="Areas\HelpPage\XmlDocumentationProvider.cs" />
     <Compile Include="Controllers\AccountController.cs" />
+    <Compile Include="Controllers\AnimalController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ValuesController.cs" />
     <Compile Include="Global.asax.cs">
@@ -311,6 +312,14 @@
     <ProjectReference Include="..\AnimalCreator.Data\AnimalCreator.Data.csproj">
       <Project>{F5F57879-F955-47E9-A8B2-13107DFD2C3E}</Project>
       <Name>AnimalCreator.Data</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\AnimalCreator.Models\AnimalCreator.Models.csproj">
+      <Project>{7619D11E-7953-4DA5-AD44-4B6D62E41854}</Project>
+      <Name>AnimalCreator.Models</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\AnimalCreator.Services\AnimalCreator.Services.csproj">
+      <Project>{940EE729-C29C-44B9-BE75-F2CDA7812846}</Project>
+      <Name>AnimalCreator.Services</Name>
     </ProjectReference>
   </ItemGroup>
   <PropertyGroup>

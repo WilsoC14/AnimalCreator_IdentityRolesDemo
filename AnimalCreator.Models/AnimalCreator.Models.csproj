@@ -57,6 +57,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AnimalCreate.cs" />
+    <Compile Include="AnimalDetail.cs" />
+    <Compile Include="AnimalEdit.cs" />
+    <Compile Include="AnimalListItem.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
